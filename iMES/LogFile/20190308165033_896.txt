@@ -1,0 +1,13 @@
+Length cannot be less than zero.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at PSSocket.ParameterServerReceive(String tempRece) in d:\tsl programs\git\imesproject\imes\pssocket.h:line 32
+   at iMES.TestInterface.TimerParameterServer_Tick(Object sender, EventArgs e) in d:\tsl programs\git\imesproject\imes\testinterface.h:line 1477
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at main(String[] args) in d:\tsl programs\git\imesproject\imes\myform.cpp:line 29

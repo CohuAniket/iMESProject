@@ -1,0 +1,2 @@
+WipEntity: 11213818; Time: 20190413144139; Operator: 
+Scanned bar code from gun: 1121381823606; Time: 20190413144139; Operator: 

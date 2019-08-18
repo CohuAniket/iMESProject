@@ -1,0 +1,10 @@
+Could not find any resources appropriate for the specified culture or the neutral culture.  Make sure "iMES.TestInterface.resources" was correctly embedded or linked into assembly "iMES" at compile time, or that all the satellite assemblies required are loadable and fully signed.
+   at System.Resources.ManifestBasedResourceGroveler.HandleResourceStreamMissing(String fileName)
+   at System.Resources.ManifestBasedResourceGroveler.GrovelForResourceSet(CultureInfo culture, Dictionary`2 localResourceSets, Boolean tryParents, Boolean createIfNotExists, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo requestedCulture, Boolean createIfNotExists, Boolean tryParents, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetObject(String name, CultureInfo culture, Boolean wrapUnmanagedMemStream)
+   at System.Resources.ResourceManager.GetObject(String name)
+   at iMES.TestInterface.InitializeComponent() in d:\tsl programs\git\imesproject\imes\testinterface.h:line 889
+   at iMES.TestInterface..ctor() in d:\tsl programs\git\imesproject\imes\testinterface.h:line 115
+   at main(String[] args) in d:\tsl programs\git\imesproject\imes\myform.cpp:line 23

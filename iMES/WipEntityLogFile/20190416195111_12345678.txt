@@ -1,0 +1,3 @@
+WipEntity: 12345678; Time: 20190416195111; Operator: SN0001
+Scanned bar code from gun: 123456780502; Time: 20190416195111; Operator: SN0001
+{EOF}
